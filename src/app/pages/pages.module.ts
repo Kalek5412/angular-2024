@@ -9,6 +9,7 @@ import { PagesComponent } from './pages.component';
 import { SharedModule } from '../shared/shared.module';
 import { FormsModule } from '@angular/forms';
 import { ComponentModule } from '../components/component.module';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 
@@ -19,6 +20,7 @@ import { ComponentModule } from '../components/component.module';
     GraficaComponent,
     ProgressComponent,
     PagesComponent,
+    AccountSettingsComponent,
   ],
   imports: [
     CommonModule,
@@ -32,7 +34,8 @@ import { ComponentModule } from '../components/component.module';
     DashboardComponent,
     GraficaComponent,
     ProgressComponent,
-    PagesComponent
+    PagesComponent,
+    AccountSettingsComponent
   ]
 })
 export class PagesModule { }
