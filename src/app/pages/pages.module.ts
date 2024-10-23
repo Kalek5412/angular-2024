@@ -7,6 +7,8 @@ import { GraficaComponent } from './grafica/grafica.component';
 import { ProgressComponent } from './progress/progress.component';
 import { PagesComponent } from './pages.component';
 import { SharedModule } from '../shared/shared.module';
+import { FormsModule } from '@angular/forms';
+import { ComponentModule } from '../components/component.module';
 
 
 
@@ -21,7 +23,9 @@ import { SharedModule } from '../shared/shared.module';
   imports: [
     CommonModule,
     AppRoutingModule,
-    SharedModule
+    SharedModule,
+    ComponentModule,
+    FormsModule,
   ],
   exports:[
  

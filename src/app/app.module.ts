@@ -6,9 +6,9 @@ import { FormsModule } from '@angular/forms';
 import { PagesModule } from './pages/pages.module';
 import { AuthModule } from './auth/auth.module';
 
-
 import { AppComponent } from './app.component';
 import { NopagefoundComponent } from './404/nopagefound/nopagefound.component';
+
 
 
 
@@ -17,6 +17,7 @@ import { NopagefoundComponent } from './404/nopagefound/nopagefound.component';
     AppComponent,
   
     NopagefoundComponent,
+       
   
   ],
   imports: [
@@ -26,7 +27,7 @@ import { NopagefoundComponent } from './404/nopagefound/nopagefound.component';
     HttpClientModule,
     PagesModule,
     AuthModule,
-  
+   
   ],
   providers: [],
   bootstrap: [AppComponent]
